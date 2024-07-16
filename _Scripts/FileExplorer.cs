@@ -15,8 +15,8 @@ public class FileExplorer : MonoBehaviour
     {
         rover = GameObject.Find("Rover");
 
-        string basePath = "C:\\Commands\\movement-files";
-        path = EditorUtility.OpenFilePanel("","Commands" , "movement-files");
+        string basePath = "C:\\Commands\\All files";
+        path = EditorUtility.OpenFilePanel("","Commands" , "");
         if (path.Length != 0)
        {
            int startIndex = basePath.Length+1; // Index of the comma
@@ -25,6 +25,7 @@ public class FileExplorer : MonoBehaviour
             if (modifiedString == "forward-10.txt")
             {
                 rover.transform.Translate(1f, 0,0);
+                Debug.Log("Works");
             }
 
             else if (modifiedString == "backward-10.txt")

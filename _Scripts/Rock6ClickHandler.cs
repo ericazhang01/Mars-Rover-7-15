@@ -4,7 +4,7 @@ public class Rock6ClickHandler : MonoBehaviour
 {
     public GameObject popupPanel; // Reference to the popup panel
     private bool isPopupOpen = false;
-    private PopUpCycle cycler;
+    //private PopUpCycle cycler;
     
 
     void Start()
