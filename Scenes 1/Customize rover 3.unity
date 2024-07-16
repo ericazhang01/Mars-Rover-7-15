@@ -833,7 +833,6 @@ GameObject:
   - component: {fileID: 783936379}
   - component: {fileID: 783936378}
   - component: {fileID: 783936377}
-  - component: {fileID: 783936380}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -954,18 +953,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 783936375}
   m_CullTransparentMesh: 1
---- !u!114 &783936380
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 783936375}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 546bc5c8d22100a4bb4b15694d254507, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &884172255
 GameObject:
   m_ObjectHideFlags: 0
@@ -1488,7 +1475,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 4
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
