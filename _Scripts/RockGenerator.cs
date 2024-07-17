@@ -15,10 +15,10 @@ public class RockGenerator : MonoBehaviour
         GenerateRocks();
     }
 
-    public void changeNumRocks(int n)
+    public void changeNumRocks(int n) // used in the Terrain difficulty scene. 
     {
         numberOfRocks = n;
-        PlayerPrefs.SetInt("numberOfRocks", numberOfRocks);
+        PlayerPrefs.SetInt("numberOfRocks", numberOfRocks); // sets the number of rocks that will generate in . 
     }
 
     void GenerateRocks()
@@ -49,7 +49,7 @@ public class RockGenerator : MonoBehaviour
             } while (!validPosition);
 
             rockPositions.Add(newPosition);
-            Instantiate(rockPrefabs[Random.Range(0, rockPrefabs.Length)], newPosition, Quaternion.identity);
+            Instantiate(rockPrefabs[Random.Range(0, rockPrefabs.Length)], newPosition, Quaternion.identity); // selects a random index from the rockprefabs and generates. 
         }
     }
 }

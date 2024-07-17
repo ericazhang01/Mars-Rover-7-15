@@ -24,7 +24,7 @@ public class RockSpecialGenerator : MonoBehaviour
         for (int i = 0; i < numberOfRocks; i++)
         {
             Vector2 newPosition;
-            bool validPosition;
+            bool validPosition; // checks if you can place rocks in this spot (doesn't collide with any other special rocks. )
 
             do
             {
@@ -34,9 +34,9 @@ public class RockSpecialGenerator : MonoBehaviour
                     Random.Range(-areaHeight / 2, areaHeight / 2)
                 );
 
-                foreach (Vector2 position in rockPositions)
+                foreach (Vector2 position in rockPositions) // loops through each rock position that is already used.
                 {
-                    if (Vector2.Distance(position, newPosition) < minDistanceBetweenRocks)
+                    if (Vector2.Distance(position, newPosition) < minDistanceBetweenRocks) // checks if the minDistance is more or less. 
                     {
                         validPosition = false;
                         break;
@@ -44,8 +44,8 @@ public class RockSpecialGenerator : MonoBehaviour
                 }
             } while (!validPosition);
 
-            rockPositions.Add(newPosition);
-            Instantiate(rockPrefabs[i], newPosition, Quaternion.identity);
+            rockPositions.Add(newPosition);// makes sure that no other rocks can generate in the same spot. 
+            Instantiate(rockPrefabs[i], newPosition, Quaternion.identity); // same as the rock generator script, however, it only instantiates each one once (rockPrefabs[i]).
         }
     }
 }
