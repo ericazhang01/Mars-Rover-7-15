@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEditor;
 
-public class SkinManager : MonoBehaviour // NOT BEING USED IN THE GAME
+public class SkinManager : MonoBehaviour
 {
 
     public SpriteRenderer sr;
