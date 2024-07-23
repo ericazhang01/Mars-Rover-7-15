@@ -2132,12 +2132,20 @@ PrefabInstance:
       value: rover pink
       objectReference: {fileID: 0}
     - target: {fileID: 7554373028210679706, guid: eeef9864b5ea8a042a373a0d8f230885, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 7554373028210679706, guid: eeef9864b5ea8a042a373a0d8f230885, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 7554373028210679706, guid: eeef9864b5ea8a042a373a0d8f230885, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0874
+      value: 0.0883
       objectReference: {fileID: 0}
     - target: {fileID: 7554373028210679706, guid: eeef9864b5ea8a042a373a0d8f230885, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.4906
+      value: 0.4897
       objectReference: {fileID: 0}
     - target: {fileID: 7554373028210679706, guid: eeef9864b5ea8a042a373a0d8f230885, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2184,6 +2192,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371905376}
     m_Modifications:
+    - target: {fileID: 4679483242609800595, guid: 380ec7dc886142346a4aeb8496a2b83a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 4679483242609800595, guid: 380ec7dc886142346a4aeb8496a2b83a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.04
+      objectReference: {fileID: 0}
     - target: {fileID: 4679483242609800595, guid: 380ec7dc886142346a4aeb8496a2b83a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0874
@@ -2242,6 +2258,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 1371905376}
     m_Modifications:
     - target: {fileID: 74741176372533096, guid: dd3e526ee3b64164d98e7f21acbe6ffa, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 74741176372533096, guid: dd3e526ee3b64164d98e7f21acbe6ffa, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 74741176372533096, guid: dd3e526ee3b64164d98e7f21acbe6ffa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0874
       objectReference: {fileID: 0}
@@ -2285,6 +2309,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: rover green
       objectReference: {fileID: 0}
+    - target: {fileID: 9068913726626842500, guid: dd3e526ee3b64164d98e7f21acbe6ffa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8dd085c95a40aa54e9230a170d290867, type: 3}
+    - target: {fileID: 9068913726626842500, guid: dd3e526ee3b64164d98e7f21acbe6ffa, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2299,12 +2331,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 1371905376}
     m_Modifications:
     - target: {fileID: 1557442020023903566, guid: 8e1c674dcd63117469f7d48c29696663, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557442020023903566, guid: 8e1c674dcd63117469f7d48c29696663, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557442020023903566, guid: 8e1c674dcd63117469f7d48c29696663, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0874
       objectReference: {fileID: 0}
     - target: {fileID: 1557442020023903566, guid: 8e1c674dcd63117469f7d48c29696663, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.4906
+      value: 0.4897
       objectReference: {fileID: 0}
     - target: {fileID: 1557442020023903566, guid: 8e1c674dcd63117469f7d48c29696663, type: 3}
       propertyPath: m_LocalPosition.z
